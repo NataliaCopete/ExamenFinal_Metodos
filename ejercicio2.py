@@ -4,7 +4,14 @@
 import numpy as np
 
 x = np.int_(np.random.random(100)*1000)
-print(x)
+valor=x[0]
+i=0
+while(valor<800.0):
+    if(valor%2!=0):
+      print(valor)
+    i=i+1
+    valor=x[i]
+    
 
 
 
